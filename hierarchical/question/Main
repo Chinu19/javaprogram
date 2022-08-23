@@ -1,0 +1,11 @@
+public class Main3 extends Grade{
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Main3 obj=new Main3();
+        obj.accept();
+        obj.calc();
+        obj.grade();
+	}
+
+}
