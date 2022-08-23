@@ -1,0 +1,26 @@
+public class Grade extends Calculate  {
+	
+    public void grade()
+    {
+    	if (per>=90 && per<=100)
+    	{
+    		System.out.println(" A grade");
+    	}
+     else if(per>=75 && per<=89)
+     {
+    	 System.out.println("B Grade");
+     }
+     else if (per>=59 && per<=74)
+     {
+    	 System.out.println("C Grade");
+     }
+     else if (per>=45 && per<=58)
+     {
+    	 System.out.println("D grade");
+     }
+     else 
+     {
+    	 System.out.println("Fail");
+     }
+    }
+}
