@@ -1,0 +1,17 @@
+package Heirarchical;
+
+import java.util.Scanner;
+
+public class Arithmetic_parent {
+
+		// TODO Auto-generated method stub
+		static Scanner sc=new Scanner(System.in);
+		static int num1,num2,res ;
+	
+	public  Arithmetic_parent()
+	{
+	System.out.println("enter two numbers:");
+	num1=sc.nextInt();
+	num2=sc.nextInt();
+}
+}
