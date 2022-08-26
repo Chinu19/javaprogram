@@ -1,0 +1,48 @@
+package Abstraction;
+
+abstract class Chinese
+{
+    abstract int noodles();       
+}
+ class Suraahi extends Chinese
+ {
+
+	@Override
+ 	int noodles () {
+		// TODO Auto-generated method stub
+		return 260;
+	}
+ }
+	class Gcc extends Chinese
+	{
+	 	int noodles () 
+		{
+			// TODO Auto-generated method stub
+			return 280;
+		}
+	}
+		class Madona extends Chinese
+		 {
+		 	int noodles () 
+			{
+				// TODO Auto-generated method stub
+				return 200;
+			}
+		 }
+	        public  class Chinese_call {
+			public static void main(String[] args) 
+			{
+				Suraahi obj=new Suraahi();
+				obj.noodles();
+				System.out.println("the price of suraahi noodles is"+obj.noodles()+"rs");
+				Gcc obj1=new Gcc();
+				obj1.noodles();
+				System.out.println("the price of Gcc noodles is"+obj1.noodles()+"rs");
+				Madona obj2=new Madona();
+				obj2.noodles();
+				System.out.println("the price of Madona noodles is"+obj2.noodles()+"rs");
+			}
+			
+		}
+		
+ 
