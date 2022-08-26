@@ -1,0 +1,52 @@
+package Abstraction;
+
+public class Main_vehical 
+{ 
+	public void car() 
+	{
+		car obj=new car();
+		obj.model();
+		obj.colour();
+		obj.start_with();
+		obj.price();
+		System.out.println("the price of the car is "+obj.price()+"rs");
+	}
+	public void truck() 
+	{
+		truck obj1=new truck();
+		obj1.model();
+		obj1.colour();
+		obj1.start_with();
+		obj1.price();
+		System.out.println("the price of the car is "+obj1.price()+"rs");
+	}
+	public void bike () 
+	{
+		bike obj2=new bike();
+		obj2.model();
+		obj2.colour();
+		obj2.start_with();
+		obj2.price();
+		System.out.println("the price of the car is "+obj2.price()+"rs");
+	}
+	public void scooty() 
+	{
+		scooty obj3=new scooty();
+		obj3.model();
+		obj3.colour();
+		obj3.start_with();
+		obj3.price();
+		System.out.println("the price of the car is "+obj3.price()+"rs");
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Main_vehical obj=new Main_vehical();
+		obj.car();
+		obj.bike();
+		obj.truck();
+		obj.scooty();
+		
+	}
+
+}
