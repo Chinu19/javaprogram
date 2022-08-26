@@ -1,0 +1,116 @@
+package Abstraction;
+
+public abstract class Vehical 
+{
+  abstract void model();
+  abstract void colour();
+  abstract void start_with();
+  abstract int price();
+}
+  class car extends Vehical
+  {
+
+@Override
+void model() {
+	// TODO Auto-generated method stub
+	System.out.println("mercedez");
+}
+
+@Override
+void colour() {
+	// TODO Auto-generated method stub
+	System.out.println("white");
+}
+
+@Override
+void start_with() {
+	// TODO Auto-generated method stub
+	System.out.println("remote key");
+}
+
+@Override
+int price() {
+	// TODO Auto-generated method stub
+	return 100000;
+}
+  }
+class truck extends Vehical
+{
+
+	@Override
+	void model() {
+		// TODO Auto-generated method stub
+		System.out.println("benz");
+	}
+
+	@Override
+	void colour() {
+		// TODO Auto-generated method stub
+		System.out.println("red");
+	}
+
+	@Override
+	void start_with() {
+		// TODO Auto-generated method stub
+		System.out.println("self start");
+	}
+
+	@Override
+	int price() {
+		// TODO Auto-generated method stub
+		return 3000000;
+	}
+} 
+class bike extends Vehical
+{
+
+	void model() {
+		System.out.println("R15");
+		
+	}
+
+	@Override
+	void colour() {
+		// TODO Auto-generated method stub
+		System.out.println("blue");
+	}
+
+	@Override
+	void start_with() {
+		// TODO Auto-generated method stub
+		System.out.println("key");
+	}
+
+	@Override
+	int price() {
+		// TODO Auto-generated method stub
+		return 5000000;
+	}
+ 	
+}
+class scooty extends Vehical
+{
+	@Override
+	void model() {
+		// TODO Auto-generated method stub
+		System.out.println("fascino");
+	}
+
+	@Override
+	void colour() {
+		// TODO Auto-generated method stub
+		System.out.println("black matte");
+	}
+
+	@Override
+	void start_with() {
+		// TODO Auto-generated method stub
+		System.out.println("key");
+	}
+
+	@Override
+	int price() {
+		// TODO Auto-generated method stub
+		return 80000;
+	}
+}
