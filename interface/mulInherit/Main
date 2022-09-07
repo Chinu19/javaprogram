@@ -1,0 +1,24 @@
+package interfaceprog;
+
+public class main implements multipleInheritance,MultipleInheritance1   {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	main obj=new main();
+	obj.square();
+	obj.Rectangle();
+	}
+
+	@Override
+	public void Rectangle() {
+		// TODO Auto-generated method stub
+		System.out.println(l*b);
+	}
+
+	@Override
+	public void square() {
+		// TODO Auto-generated method stub
+		System.out.println(a*a);
+	}
+
+}
