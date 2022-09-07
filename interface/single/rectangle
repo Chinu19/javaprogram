@@ -1,0 +1,18 @@
+package interfaceprog;
+
+public class Rectangle implements Interface1{
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        Rectangle obj=new Rectangle ();
+        obj.shape();
+	}
+
+	@Override
+	public void shape() {
+		// TODO Auto-generated method stub
+		int l=12,b=6;
+		System.out.println(l*b);
+	}
+
+}
