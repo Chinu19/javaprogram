@@ -1,0 +1,19 @@
+package interfaceprog;
+
+public  class Square implements Interface1{
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+       Square obj=new Square ();
+       obj.shape();
+	}
+
+	@Override
+	public void shape() {
+		// TODO Auto-generated method stub
+		 int a=10;
+		 
+		 System.out.println(a*a);
+	}
+
+}
