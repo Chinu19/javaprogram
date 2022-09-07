@@ -1,0 +1,7 @@
+package interfaceprog;
+
+public interface MultipleInheritance1 
+{
+      void Rectangle();
+      final int l=13,b=6;
+}
