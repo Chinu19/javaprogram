@@ -1,0 +1,6 @@
+package interfaceprog;
+
+public interface multipleInheritance {
+     void square();
+      final int a=12;
+}
